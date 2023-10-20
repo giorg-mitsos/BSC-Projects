@@ -1,0 +1,13 @@
+
+
+usage:
+	make all
+	compile <file>
+	run out.abc
+
+Library Functions:
+-print
+-typeof
+-totalarguments
+-sin
+-cos

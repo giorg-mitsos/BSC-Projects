@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <title> Who Wants To Be a Millionaire </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="https://cdn.freebiesupply.com/logos/large/2x/who-wants-to-be-a-millionaire-logo-png-transparent.png" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    </head>
+    <body>
+      <div id = "spm_logo"></div>
+      <button class = "spm_Sabo" (click)="Sabo()"></button>
+      <button class = "spm_Pass" (click)="Pass()"></button>
+      <div id="spm_question" style="margin-top: 10%;">
+        <p id="spm_question_sentence" style="color: white; font-size: 7vh; text-align: center; margin-top: 3%; width: 100%;">TBA</p>
+      </div>
+
+
+      <button type="button" class ="spm_Answer" id="spm_Answer_idle1" (click)="changeState('spm_Answer_idle1')" style="margin-top: 25%; margin-left: 5%;">
+      <span class ="span0" id = "span1" style="margin-left: -20%;">A:&nbsp;</span>
+      <span class ="span0" id = "span2" style="margin-left: 0%;">TBA</span>
+      </button>
+
+
+      <button type="button" class ="spm_Answer" id="spm_Answer_idle2" (click)="changeState('spm_Answer_idle2')"  style="margin-top: 25%; margin-left: 51%;">
+      <span class ="span0" id = "span1" style="margin-left: -20%;">B:&nbsp;</span>
+      <span class ="span0" id = "span2" style="margin-left: 0%;">TBA</span>
+      </button>
+
+      <button type="button" class ="spm_Answer" id="spm_Answer_idle3" (click)="changeState('spm_Answer_idle3')"  style="margin-top: 35%; margin-left: 5%;" >
+      <span class ="span0" id = "span1" style="margin-left: -20%;">C:&nbsp;</span>
+      <span class ="span0" id = "span2" style="margin-left: 0%;">TBA</span>
+      </button>
+
+      <button type="button" class ="spm_Answer" id="spm_Answer_idle4" (click)="changeState('spm_Answer_idle4')"  style="margin-top: 35%; margin-left: 51%;">
+      <span class ="span0" id = "span1" style="margin-left: -20%;">D:&nbsp;</span>
+      <span class ="span0" id = "span2" style="margin-left: 0%;">TBA</span>
+      </button>
+
+      
+        <button (click)="drop()" class="dropbtn"></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Instant Replay</a>
+          <a href="#">Tweet</a>
+          <a routerLink="/menuphone">Main Menu</a>
+          <a routerLink="/exit">Exit</a>
+        </div>
+
+        
+          
+    
+      </body>
+    
+    
+</html>
+

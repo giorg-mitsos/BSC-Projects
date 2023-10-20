@@ -1,0 +1,121 @@
+body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(from 180deg at 50% 50%, #002277 -133.13deg, rgba(0, 0, 0, 0.5) 61.87deg, #002277 226.87deg, rgba(0, 0, 0, 0.5) 421.87deg), #002277;
+}
+
+#logo{
+  position: absolute;
+  width: 7.8%;
+  height : 13.8%;
+  background: url(https://cdn.freebiesupply.com/logos/large/2x/who-wants-to-be-a-millionaire-logo-png-transparent.png) no-repeat center center;
+  background-size:  contain;
+  margin-left: 46.2%;
+  margin-top: 2%;
+}
+
+.btn {
+  border: none;
+  padding: 12px 16px;
+  font-size: 5vh;
+  cursor: pointer;
+  color: #FFC700;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  visibility: visible;
+}
+
+h1{
+color: #FFC700;
+font-style: normal;
+font-weight: normal;
+font-size: 8vh;
+text-align: center;
+margin-top: 9%;
+
+
+}
+
+#container{
+  width: 88%;
+  text-align: center;
+  height: 62%;
+  background: conic-gradient(from 180deg at 50% 50%, rgba(0, 0, 0, 0.5) 0deg, #002277 226.87deg, rgba(0, 0, 0, 0.5) 360deg), #002277;
+  border: 10px solid #01C2FF;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin-left:6%;
+  margin-top: 1%;
+  overflow: auto;
+}
+
+
+#p_info{
+  margin-left:3%;
+  font-size: 4vh;
+  text-align: left;
+  line-height: 6vh;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 4px;
+  position: relative;
+  }
+  
+  ::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 10%;  
+  border-radius: 20px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  position: relative;
+  bottom: 5 px;
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background:#C4C4C4;
+  ;  
+  border-radius: 10px;
+  }
+
+  .imgBomb{
+    position: relative;
+    margin-right:1200px;
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .imgPass {
+    position: relative;
+    margin-right:1200px;
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .sw_modality{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-size:100%;
+    background-color: #FFFFFF;
+    right :10px;
+    top: 10px;
+}
+
+.imgSpeak{
+  position: absolute;
+  top:10px;
+  right:10px;
+  height: 50px;
+  width: 50px
+}
+  
+

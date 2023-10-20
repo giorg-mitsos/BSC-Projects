@@ -1,0 +1,184 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+div{display: inline-block;}
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(from 180deg at 50% 50%, #002277 -133.13deg, rgba(0, 0, 0, 0.5) 61.87deg, #002277 226.87deg, rgba(0, 0, 0, 0.5) 421.87deg), #002277;
+}
+
+#spm_logo{
+    position: absolute;
+    width: 7.8%;
+    height : 13.8%;
+    background: url(https://cdn.freebiesupply.com/logos/large/2x/who-wants-to-be-a-millionaire-logo-png-transparent.png) no-repeat center center;
+    background-size:  contain;
+    margin-left: 46.2%;
+    margin-top: 2%;
+}
+
+.spm_Pass{
+    position: absolute;
+    width: 8%;
+    height: 14%;
+    background: url(https://i.ibb.co/C1smRJY/Group-49.png ) no-repeat center center;
+    margin-top : 2%;
+    margin-left: 14.6%;
+    background-size: contain;
+    border-radius: 999px;
+    border: 0px;
+}
+
+.spm_Sabo{
+    position: absolute;
+    width: 8%;
+    height: 14%;
+    background: url(https://i.ibb.co/yfK58wz/Ellipse-23.png) no-repeat center center;
+    margin-top : 2%;
+    margin-left: 4%;
+    background-size:  contain;
+    border: 0px;
+
+}
+
+#spm_question{
+    position: absolute;
+    height: 23%;
+    width : 90%;
+    background: url(https://img.imageupload.net/2020/12/01/Polygon-33.png) no-repeat center center;
+    margin-left: 5%;
+    background-size: contain;
+    
+
+}
+
+.spm_Answer{
+    position: absolute;
+    width: 44.2%;
+    height: 14.3%;
+    border: 0px;
+    
+
+}
+
+#spm_Answer_idle1{
+    background: url(https://i.ibb.co/bPD7HjH/Polygon-51.png) no-repeat center center;
+    background-size:  contain;
+}
+#spm_Answer_idle2{
+    background: url(https://i.ibb.co/bPD7HjH/Polygon-51.png) no-repeat center center;
+    background-size:  contain;
+}
+#spm_Answer_idle3{
+    background: url(https://i.ibb.co/bPD7HjH/Polygon-51.png) no-repeat center center;
+    background-size:  contain;
+}
+#spm_Answer_idle4{
+    background: url(https://i.ibb.co/bPD7HjH/Polygon-51.png) no-repeat center center;
+    background-size:  contain;
+}
+
+#spm_Answer_Pend{
+    background: url(https://i.ibb.co/7NbMvnK/Polygon-24-1.png) no-repeat center center;
+    background-size:  contain;
+    color : black;
+}
+
+#spm_Answer_Corr{
+    background: url(https://i.ibb.co/T0sRyXf/Polygon-29.png) no-repeat center center;
+    background-size:  contain;
+ 
+
+}
+
+.span0{
+    font-size: 5vh;
+}
+
+#span1{
+    color : #FFA902;
+    font-size: 5vh;
+}
+#span2{
+    color: white;
+    font-size: 5vh;
+}
+#span3{
+    color: black;
+    font-size: 5vh;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    position: absolute;
+    background: url(https://i.ibb.co/5nbcGFT/pngwing-com.png) no-repeat center center;
+    background-size: contain;
+    width: 5%;
+    height: 10%;
+    margin-top: 3%;
+    margin-left : 90%;
+    color: white;
+    border: none;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  
+  /* The container <div> - needed to position the dropdown content */
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left : 55%;
+    margin-top : 3%;
+
+    background-color:rgba(85, 98, 218, 0.9);
+    width: 40%;
+    height: 90%;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgba(255, 255, 255, 2);
+    padding: 10% 30%;
+    font-size: 4vh;
+    text-align: center;
+    opacity: 1;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-content a:hover{
+      color :  rgba(255, 255, 255, 1);
+      text-decoration: none;
+  }
+
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+/* 
+   ############# IMAGE LINKS #############
+   sw_logo         : https://cdn.freebiesupply.com/logos/large/2x/who-wants-to-be-a-millionaire-logo-png-transparent.png
+   sw_idle         : https://i.ibb.co/17zH6dv/Polygon-23.png
+   sw_correct      : https://i.ibb.co/4tknMSy/Polygon-22.png
+   sw_pending      : https://i.ibb.co/G7W9Cg0/Polygon-19.png
+   sw_question     : https://i.ibb.co/sbMrpYL/Polygon-16.png
+   sw_redmoney     : https://i.ibb.co/42X5f8k/Polygon-24.png
+   sw_greenmoney   : https://i.ibb.co/h94sxRQ/Polygon-13.png 
+   sw_5050         : https://caminobarcelona.com/Millionaire/pictures/Classic5050.png
+   sw_phoneAfriend : https://caminobarcelona.com/Millionaire/pictures/phoneAFriend.png
+   sw_audianceHelp : https://i.ibb.co/LhNgZdP/Classic-ATA-1.png
+   spm_Sabo        : https://i.ibb.co/yfK58wz/Ellipse-23.png
+   spm_Pass        : https://i.ibb.co/C1smRJY/Group-49.png 
+   spm_Question    : https://i.ibb.co/8z76n3y/Polygon-49.png
+   spm_Answer_idle : https://i.ibb.co/bPD7HjH/Polygon-51.png
+   spm_Answer_pend : https://i.ibb.co/7NbMvnK/Polygon-24-1.png
+   spm_Answer_Corr : https://i.ibb.co/T0sRyXf/Polygon-29.png
+*/
